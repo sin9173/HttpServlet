@@ -12,7 +12,7 @@ import java.util.Enumeration;
 @WebServlet(name = "requestHeaderServlet", urlPatterns = "/request-header")
 public class RequestHeaderServlet extends HttpServlet {
 
-    // HTTP 요청 데이터
+    // HTTP 요청 데이터 유형
     /*
         1. 쿼리파라미터 (GET)
          - 메시지 바디 없이 URL 의 쿼리파라미터에 데이터를 포함해 전달
